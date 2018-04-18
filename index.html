@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>个人简历</title>
+	<link rel="stylesheet" href="css/reset.css">
+	<style>
+		*{
+			margin: 0;
+			padding: 0;
+		}
+		html,body{
+			min-width: 1000px;
+		}
+		#box{
+			width: 1000px;
+			margin:10px auto;
+		}
+		#header{
+			width: 100%;
+			height: 150px;
+			background-color: #ccc;
+			box-shadow: 0 2px 2px #999;
+		}
+		#header .logo{
+			float: left;
+			width: 300px;
+			height: 100%;
+			text-align: center;
+		}
+		#header .logo h1{
+			padding:15px 0;
+			font-size: 50px;
+			font-weight:bold;
+		}
+		#header .logo p{
+			font-size: 16px;
+		}
+		#header .infor{
+			float: left;
+			width: 500px;
+			height: 100%;
+		}
+		#header .infor li{
+			height: 30px;
+			text-indent: 60px;
+			line-height: 28px;
+		}
+		#header .infor li:nth-child(1){
+			background: url("img/account.png") no-repeat 32px 5px;
+		}
+		#header .infor li:nth-child(2){
+			background: url("img/sex.png") no-repeat 32px 5px;
+		}
+		#header .infor li:nth-child(3){
+			background: url("img/phone.png") no-repeat 32px 5px;
+		}
+		#header .infor li:nth-child(4){
+			background: url("img/email.png") no-repeat 32px 5px;
+		}
+		#header .infor li:nth-child(5){
+			background: url("img/wxb.png") no-repeat 32px 5px;
+		}
+		#header .photo img{
+			width: 95px;
+			margin: 7px 50px;
+		}
+		#main{
+			width: 100%;
+			height: 980px;
+		}
+		#main .left{
+			float: left;
+			height: 100%;
+			width: 50px;
+			padding: 10px;
+		}
+		#main .right{
+			width: 930px;
+			float: left;
+		}
+		#main h3{
+			margin:10px 0;
+			color:#33cc00;
+			font-size: 24px;
+			border-bottom: 2px solid #3c0;
+		}
+		#main span{
+			margin-right: 20px;
+			color: #3c0;
+		}
+		#main ul li{
+			text-indent: 25px;
+			margin-bottom: 10px;
+		}
+		#main ul li:nth-child(1){
+			background: url(img/1.png) no-repeat;
+		}
+		#main ul li:nth-child(2){
+			background: url(img/2.png) no-repeat;
+		}
+		#main ul li:nth-child(3){
+			background: url(img/3.png) no-repeat;
+		}
+		#main ul li:nth-child(4){
+			background: url(img/4.png) no-repeat;
+		}
+		#main ul li:nth-child(5){
+			background: url(img/5.png) no-repeat;
+		}
+		#main ul li:nth-child(6){
+			background: url(img/6.png) no-repeat;
+		}
+		#main .project span{
+			color: #60f;
+		}
+		#main .skills span{
+			display: inline-block;
+		}
+		#main .skills span:nth-child(1){
+			width: 60px;
+			height: 25px;
+			text-align: right;
+		}
+		#main .skills span:nth-child(2){
+			width: 300px;
+			height: 25px;
+			margin-bottom: 10px;
+			background: #ccc;
+		}
+		#main span.col{
+			color: #930;
+		}
+		#main .skills span{
+			color: #666;
+			font-size: 20px;
+		}
+		#main .skills .html span span{
+			width: 260px;
+			height: 25px;
+			background-color: #c03;
+		}
+		#main .skills .css span span{
+			width: 250px;
+			height: 25px;
+			background-color: #c03;
+		}
+		#main .skills .js span span{
+			width: 180px;
+			height: 25px;
+			background-color: #c03;
+		}
+		#main .skills .jq span span{
+			width: 170px;
+			height: 25px;
+			background-color: #c03;
+		}
+		#main .skills .ps span span{
+			width: 220px;
+			height: 25px;
+			background-color: #c03;
+		}
+		#footer{
+			width: 100%;
+			
+		}
+		#footer p:nth-child(1){
+			padding:15px 0;
+			text-align: center;
+			font-size: 30px;
+			background: #ccc url(img/pj.png) no-repeat 390px center;
+		}
+		#footer p:nth-child(2){
+			text-indent: 30px;
+		}
+	</style>
+</head>
+<body>
+	<div id="box">
+		<!-- header start -->
+		<div id="header">
+			<div class="logo">
+				<h1>个人简历</h1>
+				<p>求职意向:前端工程师</p>
+			</div>
+			<div class="infor">
+				<ul>
+					<li>劳同书</li>
+					<li>男</li>
+					<li>18200860305</li>
+					<li>1823036577@qq.com</li>
+					<li>深圳市宝安区</li>
+				</ul>
+			</div>
+			<div class="photo">
+				<img src="img/photo.jpg" alt="">
+			</div>
+		</div>
+		<!-- header end -->
+		<!-- main start -->
+		<div id="main">
+			<div class="work">
+				<div class="left">
+					<img src="img/work.png" alt="">
+				</div>
+				<div class="right">
+					<h3>工作经验</h3>
+					<span>广东希有科技有限公司（湛江公司）</span><span>前端实习生</span><span>2016.9~2017.6</span>
+					<p>主要通过html+css+javascript等前端技术将设计图实现成web页面</p>
+				</div>
+			</div>
+			<div class="know">
+				<div class="left">
+					<img src="img/know.png" alt="">
+				</div>
+				<div class="right">
+					<h3>掌握知识</h3>
+					<ul>
+						<li>掌握html,css,熟悉常用的标签特点，熟悉div+css布局，知道他们的权重问题，知道css的书写规范</li>
+						<li>了解h5+css3</li>
+						<li>具有美术功底，熟悉ps切图，熟悉js和jq</li>
+						<li>了解json和Ajax</li>
+					</ul>
+				</div>
+			</div>
+			<div class="project">
+				<div class="left">
+					<img src="img/project.png" alt="">
+				</div>
+				<div class="right">
+					<h3>项目经验</h3>
+					<ul>
+						<li>
+							<p><span>潭州前端首页</span><span>2018.3~2018.3</span></p>
+							<p><span class="col">项目详细:</span>根据设计师提供的PSD图片，进行切图和测量。用div+css写出潭州前端工程师首页静态网页。</p>
+							<p><span class="col">项目地址:</span><a href="https://shuxingtianxia.github.io/tanzhou/" target="_blank">潭州前端首页</a></p>
+						</li>
+						<li>
+							<p><span>iWatch首页</span><span>2018.3~2018.3</span></p>
+							<p><span class="col">项目详细:</span>根据设计图主要通过html、css合理地布局加jq实现页面</p>
+							<p><span class="col">项目地址:</span><a href="https://shuxingtianxia.github.io/iWatch/" target="_blank">iWatch首页</a></p>
+						</li>
+						<li>
+							<p><span>3D拖拽照片</span><span>2018.4~2018.4</span></p>
+							<p><span class="col">项目详细:</span>用自定义动画+js实现的3D效果</p>
+							<p><span class="col">项目地址:</span><a href="https://shuxingtianxia.github.io/3Dphoto/" target="_blank">3D拖拽照片</a></p>
+						</li>
+						<li>
+							<p><span>3D相册</span><span>2018.4~2018.4</span></p>
+							<p><span class="col">项目详细:</span>用自定义动画+js实现的3D效果</p>
+							<p><span class="col">项目地址:</span><a href="https://shuxingtianxia.github.io/photo/" target="_blank">3D相册</a></p>
+						</li>
+						<li>
+							<p><span>YOKA女装首页</span><span>2017.12~2017.1</span></p>
+							<p><span class="col">项目详细:</span>运用div+css仿写YOKA女装首页</p>
+							<p><span class="col">项目地址:</span></p>
+						</li>
+						<li>
+							<p><span>音乐播放器</span><span>2017.12~2017.12</span></p>
+							<p><span class="col">项目详细:</span>主要用div+css+js实现播放器</p>
+							<p><span class="col">项目地址:</span></p>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="skills">
+				<div class="left">
+					<img src="img/skills.png" alt="">
+				</div>
+				<div class="right">
+					<h3>技能</h3>
+					<div class="html">
+						<span>html</span>
+						<span><span></span></span>
+					</div>
+					<div class="css">
+						<span>css</span>
+						<span><span></span></span>
+					</div>
+					<div class="js">
+						<span>js</span>
+						<span><span></span></span>
+					</div>
+					<div class="jq">
+						<span>jq</span>
+						<span><span></span></span>
+					</div>
+					<div class="ps">
+						<span>ps</span>
+						<span><span></span></span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- main end -->
+		<div id="footer">
+			<p>自我评价</p>
+			<p>
+				能吃苦耐劳，公司给的每一项任务都会认真完成。对颜色比较敏感，对新事物充满好奇心，热爱学习，坚信不忘初心，方得始终的道理，希望可以得到贵公司的宝贵学习的机会，可以进去公司多于大神交流，让自己发出热光。
+			</p>
+		</div>
+	</div>
+</body>
+</html>
